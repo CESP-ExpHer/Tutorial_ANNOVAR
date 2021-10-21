@@ -18,9 +18,9 @@ Hui Yang, Kai Wang, "Genomic variant annotation and prioritization with ANNOVAR 
 Here is a brief tutorial on how to use "ANNOVAR" to annotate a list of SNPs.
 <br>
 - First, you need to download the latest version of ANNOVAR from its [website](https://annovar.openbioinformatics.org/en/latest/user-guide/download/)(registration required).<br>
-- 
-```r
-library('')
+- Then, extract it using the following command in the terminal (using **MobaXterm** in our sever). **NOTE:** You should change the **PATH** to where the downloaded folder exists. Here, we assume that the downloaded file name is **annovar.latest.tar.gz**.
+```
+tar xvfz annovar.latest.tar.gz
 ```
 
 ### Some Annotation Tools 
