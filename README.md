@@ -17,7 +17,7 @@ Hui Yang, Kai Wang, "Genomic variant annotation and prioritization with ANNOVAR 
 ## How to use
 Here is a brief tutorial on how to use "ANNOVAR" to annotate a list of SNPs.
 <br>
-- First, you need to download the latest version of ANNOVAR from its [website](https://annovar.openbioinformatics.org/en/latest/user-guide/download/)(registration required).<br>
+- First, you need to download the latest version of ANNOVAR from its [website](https://annovar.openbioinformatics.org/en/latest/user-guide/download/) (registration required).<br>
 - Then, extract it using the following command in the terminal (using **MobaXterm** in our sever). **NOTE:** You should change the **PATH** to where the downloaded folder exists. Here, we assume that the downloaded file name is **annovar.latest.tar.gz**.
 ```
 tar xvfz annovar.latest.tar.gz
@@ -32,6 +32,7 @@ The SNP file should contain at least 5 columns including **"chromosome number"**
 | 18	| 45855051	| 45855051	| T	| C |
 | 4	| 109106451	| 109106451	| A	| C |
 | 4	| 24872381	| 24872381	| T	| C |
+
 
 ### Some Annotation Tools 
 There are some tools and web pages you could use for annotating a list of SNPs which some of their most famous methods are as follows:
