@@ -1,7 +1,7 @@
 # Tutorial ANNOVAR
-Created by: Yazdan Asgari<br>
-Creation date: 21 Oct 2021<br>
-Update: 21 Oct 2021<br>
+*Created by:* Yazdan Asgari<br>
+*Creation date:* 21 Oct 2021<br>
+*Update:* 21 Oct 2021<br>
 https://cesp.inserm.fr/en/equipe/exposome-and-heredity
 <br>
 <br>
