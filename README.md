@@ -10,14 +10,16 @@ https://cesp.inserm.fr/en/equipe/exposome-and-heredity
 Hui Yang, Kai Wang, "Genomic variant annotation and prioritization with ANNOVAR and wANNOVAR", Nat Protoc. 10(10): 1556–1566, 2015, doi: 10.1038/nprot.2015.105
 [Paper_link](https://pubmed.ncbi.nlm.nih.gov/26379229/)
 <br>
-[ANNOVAR Web Page](https://annovar.openbioinformatics.org/en/latest/)
+[ANNOVAR Website](https://annovar.openbioinformatics.org/en/latest/)
 <br>
 <br>
 ## Table of Contents
 
+## How to use
 Here is a brief tutorial on how to use "ANNOVAR" to annotate a list of SNPs.
 <br>
-- First, we need to call the package in the R programming language:
+- First, you need to download the latest version of ANNOVAR from its [website](https://annovar.openbioinformatics.org/en/latest/user-guide/download/)(registration required).<br>
+- 
 ```r
 library('')
 ```
