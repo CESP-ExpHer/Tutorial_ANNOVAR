@@ -24,8 +24,8 @@ tar xvfz annovar.latest.tar.gz
 ```
 - After that, move your SNP file to the **"annovar"** folder (which was created after the extraction).
 The SNP file should contain at least 5 columns including **"chromosome number"**, **"start"** and **"end"** positions (which are the same for a SNP), **"A0"** (Reference Allele which is available in Normal Human Genome Assembly), and **"A1"** (Alternate Allele). **NOTE:** The input data should **NOT** have any header. Here is an example:
-
-|:---:||:---:|:---:|:---:|:---:|  
+| | | | | | 
+|:---:|:---:|:---:|:---:|:---:|  
 | 4	| 95733906	| 95733906	| T	| G |
 | 3	| 11604119	| 11604119	| G	| A |
 | 18	| 45855051	| 45855051	| T	| C |
