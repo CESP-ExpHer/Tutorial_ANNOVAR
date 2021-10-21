@@ -32,7 +32,7 @@ There are some tools and web pages you could use for annotating a list of SNPs w
      - Other functionalities
 - **Java**: [**snpEff / SnpSift**](http://pcingola.github.io/SnpEff/)
 - **R**: 
-  - [**annotatr**](https://bioconductor.org/packages/release/bioc/html/annotatr.html): [Paper Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5860117/), This package performs an annotation just in a range of positions (Not just a single base pair position)
+  - [**annotatr**](https://bioconductor.org/packages/release/bioc/html/annotatr.html): This package performs an annotation just in a range of positions (Not just a single base pair position), [Paper Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5860117/)
   - [**biomaRt**](https://bioconductor.org/packages/release/bioc/vignettes/biomaRt/inst/doc/accessing_ensembl.html): using getBM function
 - [**Ensembl variant_effect_predictor**](https://www.ensembl.org/info/docs/tools/vep/index.html)
-- [**Galaxy web-based platform**](https://usegalaxy.org/)
+- [**Galaxy web-based platform**](https://usegalaxy.org/): You should use "snpEff" tool in the platform
