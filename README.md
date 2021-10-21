@@ -5,8 +5,8 @@
 https://cesp.inserm.fr/en/equipe/exposome-and-heredity
 <br>
 <br>
-**Ref:** Wang K, Li M, Hakonarson H. "ANNOVAR: Functional annotation of genetic variants from next-generation sequencing data Nucleic Acids Research", 38:e164, 2010, [Paper_link](https://pubmed.ncbi.nlm.nih.gov/20601685/)<br>
-Hui Yang, Kai Wang, "Genomic variant annotation and prioritization with ANNOVAR and wANNOVAR", Nat Protoc. 10(10): 1556–1566, 2015, doi: 10.1038/nprot.2015.105
+**Ref:** Wang K, Li M, Hakonarson H. "ANNOVAR: Functional annotation of genetic variants from next-generation sequencing data", *Nucleic Acids Research*, 38:e164, 2010, [Paper_link](https://pubmed.ncbi.nlm.nih.gov/20601685/)<br>
+Hui Yang, Kai Wang, "Genomic variant annotation and prioritization with ANNOVAR and wANNOVAR", *Nat. Protoc.* 10(10): 1556–1566, 2015, doi: 10.1038/nprot.2015.105
 [Paper_link](https://pubmed.ncbi.nlm.nih.gov/26379229/)
 <br>
 [ANNOVAR Website](https://annovar.openbioinformatics.org/en/latest/)
