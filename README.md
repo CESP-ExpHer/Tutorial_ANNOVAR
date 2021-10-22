@@ -63,6 +63,34 @@ Here is an example of a **.exonic_variant_function** file:
 | line105	| synonymous SNV	| MTOR:NM_004958:exon33:c.G4731A:p.A1577A,	| 1	| 11205058	| 11205058	| C	| T |
 | line171	| nonsynonymous SNV	| CELA2B:NM_015849:exon4:c.G340A:p.D114N,	| 1	| 15808872	| 15808872	| G	| A |
 
+If you want to merge two files (**.variant_function** and **.exonic_variant_function**), you could use the following **R script** to do that:
+```r
+# defining the path for your data
+setwd("PATH_FOR_YOUR_ANNOTATION_FILES")
+# reading the annotation data
+annovar_input <- read.table(file = "YOUR_VARIANT_FUNCTION_DATA", sep = "")
+# renaming the coulumns names
+colnames(annovar_input) <- c("annovar_input_Type",	"annovar_input_Gene",	"annovar_input_chr_number",	
+  "annovar_input_pos1",	"annovar_input_pos2",	"annovar_input_A0",	"annovar_input_A1")
+# reading the exonic annotation data
+annovar_input_exons <- read.table(file = "YOUR_EXONIC_VARIANT_FUNCTION_DATA", sep = "\t")
+# renaming the coulumns names
+colnames(annovar_input_exons) <- c("annovar_input_exons_line", "annovar_input_exons_Type",	"annovar_input_exons_Gene",	
+                                   "annovar_input_exons_chr_number",	"annovar_input_exons_pos1",	"annovar_input_exons_pos2",	
+                             "annovar_input_exons_A0",	"annovar_input_exons_A1")
+# you need to install it if it is not installed before
+library(dplyr)
+# merging two data 
+annovar_merge <- left_join(annovar_input, annovar_input_exons, 
+                           by = c ("annovar_input_chr_number" = "annovar_input_exons_chr_number",
+                                   "annovar_input_pos1" = "annovar_input_exons_pos1",
+                                   "annovar_input_A0" = "annovar_input_exons_A0",
+                                   "annovar_input_A1" = "annovar_input_exons_A1"))
+# saving the output
+write.table(annovar_merge, file = "YOUR_OUTPUT_FILE_NAME", sep = "\t",
+            col.names = TRUE, row.names = FALSE, quote = FALSE)
+```
+
 
 ### Some Annotation Tools 
 There are some tools and web pages you could use for annotating a list of SNPs which some of their most famous methods are as follows:
