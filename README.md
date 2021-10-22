@@ -12,9 +12,7 @@ Hui Yang, Kai Wang, "Genomic variant annotation and prioritization with ANNOVAR 
 [ANNOVAR Website](https://annovar.openbioinformatics.org/en/latest/)
 <br>
 <br>
-## Table of Contents
-
-## How to use
+## How to use ANNOVAR to annotate a list of SNPs
 Here is a brief tutorial on how to use "ANNOVAR" to annotate a list of SNPs.
 <br>
 - First, you need to download the latest version of ANNOVAR from its [website](https://annovar.openbioinformatics.org/en/latest/user-guide/download/) (registration required).<br>
@@ -98,7 +96,7 @@ write.table(annovar_merge, file = "YOUR_OUTPUT_FILE_NAME", sep = "\t",
             col.names = TRUE, row.names = FALSE, quote = FALSE)
 ```
 
-And that is it! Your SNP list are now annotated.<br>
+And that is it! Your SNP list are now annotated.<br><br>
 For more information about different options available in the analysis using ANNOVAR, please take a look at its [website](https://annovar.openbioinformatics.org/en/latest/user-guide/startup/)
 ### Some Annotation Tools 
 There are some tools and web pages you could use for annotating a list of SNPs which some of their most famous methods are as follows:
