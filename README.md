@@ -38,6 +38,13 @@ The SNP file should contain at least 5 columns including **"chromosome number"**
 perl annotate_variation.pl -out YOUR_OUTPUT_FILE_NAME -build hg19 YOUR_INTPUT_FILE_NAME humandb/
 ```
 - **NOTE:** It is clear that you need to have perl on your OS to run ANNOVAR since it is written in perl programming language.
+- After running, you have multiple files:
+  - **.log** file: includes information regarding the running process
+  - **.variant_function** file: includes annotation for each SNP
+  - **.exonic_variant_function** file: includes detailed information for exonic SNPs
+  - **.invalid_input** file: contains SNPs if they got error during the annotation process
+
+
 ### Some Annotation Tools 
 There are some tools and web pages you could use for annotating a list of SNPs which some of their most famous methods are as follows:
 - **Perl**: [**ANNOVAR**](https://annovar.openbioinformatics.org/en/latest/)
