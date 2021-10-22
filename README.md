@@ -51,7 +51,7 @@ Here is an example of a **.variant_function** file:
 | intronic	| SDF4	| 1	| 1156131	| 1156131	| T	| C |
 | intergenic	| TTLL10(dist=1927),TNFRSF18(dist=3646)	| 1	| 1135242	| 1135242	| A	| C |
 | UTR3	| TNFRSF18(NM_004195:c.311A>G)	| 1	| 1138913	| 1138913	| T | C |
-| downstream	| LOC105378591(dist=1)	| 1	1980639	| 1980639	| G	| A |
+| downstream	| LOC105378591(dist=1)	| 1	| 1980639	| 1980639	| G	| A |
 | ncRNA_intronic	| LOC105378591	| 1	| 1981118	| 1981118	| A	| C |
 | exonic	| DFFB	| 1	| 3800242	| 3800242	| A |	G |
 
