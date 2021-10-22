@@ -44,6 +44,19 @@ perl annotate_variation.pl -out YOUR_OUTPUT_FILE_NAME -build hg19 YOUR_INTPUT_FI
   - **.exonic_variant_function** file: includes detailed information for exonic SNPs
   - **.invalid_input** file: contains SNPs if they got error during the annotation process
 
+Here is an example of a **.variant_function** file:
+
+|  |  |  |  |  |  |
+|:---|:---|:---:|:---|:---:|:---:| 
+| intronic	| SDF4	| 1	| 1156131	| 1156131	| T	| C |
+| intergenic	| TTLL10(dist=1927),TNFRSF18(dist=3646)	| 1	| 1135242	| 1135242	| A	| C |
+| UTR3	| TNFRSF18(NM_004195:c.311A>G)	| 1	| 1138913	| 1138913	| T | C |
+| downstream	| LOC105378591(dist=1)	| 1	1980639	| 1980639	| G	| A |
+| ncRNA_intronic	| LOC105378591	| 1	| 1981118	| 1981118	| A	| C |
+| exonic	| DFFB	| 1	| 3800242	| 3800242	| A |	G |
+
+Here is an example of a **.exonic_variant_function** file:
+
 
 ### Some Annotation Tools 
 There are some tools and web pages you could use for annotating a list of SNPs which some of their most famous methods are as follows:
