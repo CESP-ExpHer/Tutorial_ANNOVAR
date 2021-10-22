@@ -46,7 +46,7 @@ perl annotate_variation.pl -out YOUR_OUTPUT_FILE_NAME -build hg19 YOUR_INTPUT_FI
 
 Here is an example of a **.variant_function** file:
 
-|  |  |  |  |  |  | |
+|  |  |  |  |  |  |  |
 |:---|:---|:---:|:---|:---:|:---:|:---:| 
 | intronic	| SDF4	| 1	| 1156131	| 1156131	| T	| C |
 | intergenic	| TTLL10(dist=1927),TNFRSF18(dist=3646)	| 1	| 1135242	| 1135242	| A	| C |
@@ -56,6 +56,12 @@ Here is an example of a **.variant_function** file:
 | exonic	| DFFB	| 1	| 3800242	| 3800242	| A |	G |
 
 Here is an example of a **.exonic_variant_function** file:
+|  |  |  |  |  |  |  |  |
+|:---|:---|:---|:---:|:---|:---|:---:|:---:| 
+| line80	| synonymous SNV	| DFFB:NM_004402:exon7:c.A954G:p.P318P,	| 1	| 3800242	| 3800242	| A	| G |
+| line96	| nonsynonymous SNV	| MASP2:NM_006610:exon9:c.G1111T:p.D371Y,	| 1	| 11090916	| 11090916	| C	| A |
+| line105	| synonymous SNV	| MTOR:NM_004958:exon33:c.G4731A:p.A1577A,	| 1	| 11205058	| 11205058	| C	| T |
+| line171	| nonsynonymous SNV	| CELA2B:NM_015849:exon4:c.G340A:p.D114N,	| 1	| 15808872	| 15808872	| G	| A |
 
 
 ### Some Annotation Tools 
