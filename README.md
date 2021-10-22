@@ -99,7 +99,7 @@ write.table(annovar_merge, file = "YOUR_OUTPUT_FILE_NAME", sep = "\t",
 And that is it! Your SNP list are now annotated.<br><br>
 For more information about different options available in the analysis using ANNOVAR, please take a look at its [website](https://annovar.openbioinformatics.org/en/latest/user-guide/startup/)
 ### Some Annotation Tools 
-There are some tools and web pages you could use for annotating a list of SNPs which some of their most famous methods are as follows:
+We just talked about ANNOVAR in this tutorial. However, there are some other tools and web pages you could use for annotating a list of SNPs. Here, we provide some of their most famous methods based on the programming language they used:
 - **Perl**: [**ANNOVAR**](https://annovar.openbioinformatics.org/en/latest/)
   - You could use this tools to perform the annotation in four different scenarios
      - Gene-based annotation
