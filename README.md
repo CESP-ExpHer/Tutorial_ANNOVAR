@@ -46,8 +46,8 @@ perl annotate_variation.pl -out YOUR_OUTPUT_FILE_NAME -build hg19 YOUR_INTPUT_FI
 
 Here is an example of a **.variant_function** file:
 
-|  |  |  |  |  |  |
-|:---|:---|:---:|:---|:---:|:---:| 
+|  |  |  |  |  |  | |
+|:---|:---|:---:|:---|:---:|:---:|:---:| 
 | intronic	| SDF4	| 1	| 1156131	| 1156131	| T	| C |
 | intergenic	| TTLL10(dist=1927),TNFRSF18(dist=3646)	| 1	| 1135242	| 1135242	| A	| C |
 | UTR3	| TNFRSF18(NM_004195:c.311A>G)	| 1	| 1138913	| 1138913	| T | C |
